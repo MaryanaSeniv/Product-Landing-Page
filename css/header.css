@@ -1,0 +1,39 @@
+.header__communication {
+    padding: 30px 40px 30px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: baseline;
+}
+
+.header__tel, .header__mail {
+    font-weight: 700;
+    text-decoration: underline;
+    color: var(--additional-color);
+}
+
+.header__logo {
+    font-family: 'Vollkorn', serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: var(--title-color);
+}
+
+.header__navigation {
+    font-weight: 400;
+    padding: 10px 40px 30px 40px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header__navigation a {
+    margin: 5px 8.5px 5px 8.5px;
+    color: var(--title-color);
+}
+
+.header__navigation a:hover {
+    color: var(--additional-color);
+}

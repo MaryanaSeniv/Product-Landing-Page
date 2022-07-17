@@ -1,0 +1,42 @@
+.site__title {
+    background-image: url(../img/site-title.webp);
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(51, 51, 51, 0.7);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.site__title-main {
+    padding: 250px 40px 250px 40px;
+}
+
+.site__title-text {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 50px;
+}
+
+.site__title-text h1 {
+    font-family: 'Vollkorn', serif;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.site__title-text p {
+    margin-top: 32px;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--button-text-color);
+}
+
+.button__buy {
+    background-color: var(--additional-color);
+    padding: 15px 40px 14px 40px;
+    color: var(--button-text-color);
+    border-bottom-left-radius: 25px; border-bottom-right-radius: 25px;
+    border-top-left-radius: 7px; border-top-right-radius: 25px;
+    font-weight: 600;
+}

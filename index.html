@@ -1,26 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header id="header">
-        <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="Product landing page logo">
-        <nav id="nav-bar">
-            <a class="nav-link" href="#features">Features</a>
-            <a class="nav-link" href="#how-it-works">How It Works</a>
-            <a class="nav-link" href="#pricing">Pricing</a>
-        </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Small Farm</title>
+    <link
+      rel="shortcut icon"
+      href="//res2.weblium.site/res/5cb5ce8f55529300233ff17c/5d5fbfa660589e00237f90e7_optimized"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header__communication">
+        <a class="header__tel" href="tel:+1(234)5678900">+1 (234) 567 89 00</a>
+        <a class="header__logo" href="#fresh_station">Fresh Station</a>
+        <a class="header__mail" href="mailto:ecofarm@email.com"
+          >ecofarm@email.com</a
+        >
+      </div>
+      <nav class="header__navigation">
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#recipes">Recipes</a>
+        <a href="#visit_us">Visit us</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#events">Events</a>
+        <a href="#contacts">Contacts</a>
+      </nav>
     </header>
-    <video id="video" src=""></video>
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
-<input type="email" name="email" id="email" placeholder="">
-<input id="submit" type="submit" value="">
-    </form>
-    media query
-</body>
+    <main>
+      <section class="site__title">
+        <div class="site__title-main">
+          <div class="site__title-text">
+            <h1>Fresh Station Eco Farm</h1>
+            <p>Fresh and environment-friendly products</p>
+          </div>
+          <a class="button__buy" href="#contacts">Buy eco now</a>
+        </div>
+      </section>
+      <section id="about">
+        <h2 class="about__title">About Farm</h2>
+        <article class="about">
+          <img src="img/who_we_are.jpg" alt="Growing plants in the ground" />
+          <div class="about__text">
+            <h3>Who we are</h3>
+            <p>
+              Fresh Station Eco Farm is a lifetime project of Jane and Will
+              Barso, who started it as an exemplary way of living in harmony
+              with the environment and eating healthy. Today, we are happy to
+              cherish the full-functioning farm that was once a 20-acres amateur
+              project, providing the customers with fresh products and teaching
+              the ways to be more friendly to our planet.
+            </p>
+            <a href="index.html">Read more about us</a>
+          </div>
+        </article>
+        <article class="about">
+          <img src="img/our_products.jpg" alt="Ripe strawberries on the farm" />
+          <div class="about__text products">
+            <h3>Our products</h3>
+            <p>
+              Over the decades we established and improved the technology of
+              growing and making organic products. Now, we can offer far more
+              than just garden-grown products. We collect honey, make cheese,
+              breed chickens, and cows. In addition to the fresh fruit and
+              vegetables from our garden, we make jam, syrups, and bread. Check
+              updates for the seasonal products in our online shop.
+            </p>
+            <a href="index.html">Read more about products</a>
+          </div>
+        </article>
+        <article class="about">
+          <img src="img/why_organic.jpg" alt="Our plantation" />
+          <div class="about__text">
+            <h3>Why organic?</h3>
+            <p>
+              In the 1970s, Jane and Will, inspired by the unraveling movement
+              towards environmental sustainability and ecological mindfulness,
+              strove to design a way of doing less damage to the planet and
+              bring harmony between the food production and nature. That harmony
+              manifests a healthy life and work attitude. Today our organic
+              business is popular, and we are glad to offer our products and
+              promote biodiversity as a better lifestyle.
+            </p>
+            <a href="index.html">Read more about innovations</a>
+          </div>
+        </article>
+      </section>
+      <!-- <section>
+        <h2>Our Certificates</h2>
+        <ul>
+          <li>
+            <img src="img/usda_organic.png" alt="USDA Organic" />USDA Organic
+          </li>
+          <li><img src="img/food_plus.png" alt="FOOD PLUS +" />FOOD PLUS +</li>
+          <li><img src="img/brc_food.png" alt="BRC Food" />BRC Food</li>
+          <li>
+            <img src="img/soil_association.png" alt="Soil Association" />Soil
+            Association
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Meet Our Farmers</h2>
+        <article>
+          <img src="img/kathleen_barso.jpg" alt="Kathleen Barso" />
+          <h3>Kathleen Barso</h3>
+          <p>Farm Worker</p>
+          <p>
+            Kathleen is the live wire of the entire farm. Her enthusiasm and
+            passion for the constant improvement drives her to improve the
+            ecological production and introduce new opportunities into our
+            research and development. Kathleen is the heart of the farm and an
+            example for us all.
+          </p>
+        </article>
+        <article>
+          <img src="img/frank_barso.jpg" alt="Frank Barso" />
+          <h3>Frank Barso</h3>
+          <p>Farm Worker</p>
+          <p>
+            Frank is the flower master of the farm. He was the one to open this
+            branch of services, so he is the one to thank for the lilac bulbs
+            that you can grow at your home. From the very early years, he
+            observed our work and helped with the garden until he got
+            professional in Bio-Resource industry in 2005.
+          </p>
+        </article>
+        <article>
+          <img src="img/fred_barso.jpg" alt="Fred Barso" />
+          <h3>Fred Barso</h3>
+          <p>Farm Worker</p>
+          <p>
+            Fred is another like-mind who connected his life with the Fresh
+            Station in his very childhood. Curious about every process, he
+            learned everything about ecological farming and ways to reduce
+            waste. Now, he gives workshops for those wanting to grow their own
+            food, making it easy and enjoyable.
+          </p>
+        </article>
+      </section>
+      <section>
+        <h2>We Need More Hands!</h2>
+        <a href="#contacts">Apply</a>
+      </section>
+      <section>
+        <h2>Our Products</h2>
+        <article>
+          <img src="img/green_salad_basket.jpg" alt="Green Salad Basket" />
+          <h3>Green Salad Basket</h3>
+          <p>
+            It is one of the top offers of our farm. Green Salad Basket is a
+            seasonal set of vegetables and greens you may need in your salad. If
+            you have a family and like to cook using fresh and healthy products,
+            try the Green Salad Basket.
+          </p>
+        </article>
+        <article>
+          <img src="img/purple_salad_basket.jpeg" alt="Purple Salad Basket" />
+          <h3>Purple Salad Basket</h3>
+          <p>
+            Purple Salad Basket is another option for home cooking. It has
+            spinach and lettuce combined with eggplant and seasonal vegetables.
+            Purple Salad Basket ensures you haven’t missed any ingredient for a
+            healthy and nutritious meal.
+          </p>
+        </article>
+        <article>
+          <img src="img/vegi_soup_basket.jpg" alt="Vegi Soup Basket" />
+          <h3>Vegi Soup Basket</h3>
+          <p>
+            If you are an enthusiast cook, your time at kitchen will be even
+            more fun with Vegi Soup Basket. It is as a balanced selection of
+            vegetables needed for a tasty healthy soup for the entire family.
+          </p>
+        </article>
+        <article>
+          <img src="img/borshch_basket.jpg" alt="Borshch Basket" />
+          <h3>Borshch Basket</h3>
+          <p>
+            With our love for the regional cuisine, we designed a 100% vegetable
+            set for the legendary Borshch. Diversify your chef profile with the
+            red Ukrainian soup and surprise your family with a new healthy dish.
+          </p>
+        </article>
+        <article>
+          <img src="img/chicken_sauce_basket.jpg" alt="Chicken Sauce Basket" />
+          <h3>Chicken Sauce Basket</h3>
+          <p>
+            A perfectly balanced basket for a chicken soup. While designing the
+            basket, we took care both about the taste and nutritious qualities
+            of the meal. So, don’t forget to add a little love and treat your
+            family to a healthy and delicious soup.
+          </p>
+        </article>
+        <article>
+          <img src="img/steak_basket.jpg" alt="Steak Basket" />
+          <h3>Steak Basket</h3>
+          <p>
+            Simply, 100% organic beef. Steak Basket is a great option for a
+            family dinner or a barbecue party. Just choose the sauce and the
+            rare for your perfect steak. We also offer you a broad selection of
+            secret spices that will make you ask for more.
+          </p>
+        </article>
+        <a href="#contacts">Buy a basket</a>
+      </section> -->
+      <!-- <section>
+        <h2>Recipes</h2>
+        <article></article>
+        <article></article>
+        <article></article>
+      </section> -->
+    </main>
+  </body>
 </html>
